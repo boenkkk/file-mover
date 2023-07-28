@@ -25,8 +25,18 @@ public class FileMoverApplication {
 
 		// Run
 		// ListFiles.doit();
-		MoverFilesRecursive.doit();
+		// MoverFilesRecursive.doit();
+		MoverFilesWoSFTP.doit();
 
 		logger.info("File Mover Apps Finished!");
 	}
 }
+/* 
+TODO:
+-backup/copy files
+-count files
+-cek size
+-run apps
+-count files
+-cek size
+*/
